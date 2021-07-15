@@ -1,4 +1,4 @@
-package com.ltp.adapter.clazz;
+package com.ltp.adapter.object;
 
 /**
  * @Description:
@@ -8,8 +8,8 @@ package com.ltp.adapter.clazz;
  */
 public class Client {
     public static void main(String[] args) {
-        System.out.println("类适配器");
+        System.out.println("对象适配器");
         Phone phone = new Phone();
-        phone.charge(new VoltageAdapter());
+        phone.charge(new VoltageAdapter(new Voltage220()));
     }
 }
