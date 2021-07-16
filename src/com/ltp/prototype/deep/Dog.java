@@ -7,11 +7,26 @@ import lombok.Setter;
 import java.io.*;
 
 //此时不能使用Lombok的@Data注解，因为@Data会重写equals方法，hashCode方法导致深拷贝失效
-@Getter
-@Setter
+
 public class Dog implements Cloneable, Serializable {
     private String name;
     private Person p;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Person getP() {
+        return p;
+    }
+
+    public void setP(Person p) {
+        this.p = p;
+    }
 
     //深拷贝实现方式1 ，不能使用lombok，否则会出现深拷贝失败
     @Override

@@ -7,7 +7,10 @@ public class SinglePatterns {
         System.out.println(demo1 == demo2);
         System.out.println(demo1.hashCode() + "\n" + demo2.hashCode());
         System.out.println(Runtime.getRuntime().availableProcessors());
-
+        System.out.println("CAS单例");
+        for (int i = 0; i < 100; i++) {
+            new Thread(()-> System.out.println(Demo9.getInstance())).start();
+        }
     }
 }
 
