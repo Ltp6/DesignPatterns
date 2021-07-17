@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.bridge.BridgeClient</OriginalElement>
+  <nodes>
+    <node x="391.25" y="258.0">com.ltp.bridge.FoldPhone</node>
+    <node x="330.0" y="105.0">com.ltp.bridge.AbstractStyle</node>
+    <node x="0.0" y="116.5">com.ltp.bridge.XiaoMiPhone</node>
+    <node x="321.0" y="0.0">com.ltp.bridge.Phone</node>
+    <node x="276.7554347826087" y="388.0">com.ltp.bridge.BridgeClient</node>
+    <node x="578.25" y="258.0">com.ltp.bridge.UprightPhone</node>
+    <node x="174.99999999999997" y="116.5">com.ltp.bridge.VivoPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.bridge.BridgeClient" target="com.ltp.bridge.XiaoMiPhone" relationship="CREATE">
+      <point x="-61.5" y="-39.0" />
+      <point x="297.2554347826087" y="367.0" />
+      <point x="77.5" y="367.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.ltp.bridge.FoldPhone" target="com.ltp.bridge.Phone" relationship="DEPENDENCY">
+      <point x="41.75" y="-39.0" />
+      <point x="516.5" y="237.0" />
+      <point x="526.5" y="237.0" />
+      <point x="526.5" y="85.0" />
+      <point x="546.1684782608695" y="85.0" />
+      <point x="546.1684782608695" y="75.0" />
+      <point x="413.5" y="75.0" />
+      <point x="37.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.XiaoMiPhone" target="com.ltp.bridge.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="77.5" y="85.0" />
+      <point x="155.1304347826087" y="85.0" />
+      <point x="155.1304347826087" y="75.0" />
+      <point x="339.5" y="75.0" />
+      <point x="-37.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.BridgeClient" target="com.ltp.bridge.UprightPhone" relationship="CREATE">
+      <point x="61.5" y="-39.0" />
+      <point x="420.2554347826087" y="367.0" />
+      <point x="672.25" y="367.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.ltp.bridge.VivoPhone" target="com.ltp.bridge.Phone" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="242.49999999999997" y="85.0" />
+      <point x="155.1304347826087" y="85.0" />
+      <point x="155.1304347826087" y="75.0" />
+      <point x="339.5" y="75.0" />
+      <point x="-37.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.UprightPhone" target="com.ltp.bridge.AbstractStyle" relationship="GENERALIZATION">
+      <point x="-47.0" y="-39.0" />
+      <point x="625.25" y="227.0" />
+      <point x="423.0" y="227.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.ltp.bridge.FoldPhone" target="com.ltp.bridge.AbstractStyle" relationship="GENERALIZATION">
+      <point x="-41.75" y="-39.0" />
+      <point x="433.0" y="227.0" />
+      <point x="423.0" y="227.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.ltp.bridge.BridgeClient" target="com.ltp.bridge.FoldPhone" relationship="CREATE">
+      <point x="20.5" y="-39.0" />
+      <point x="379.2554347826087" y="357.0" />
+      <point x="474.75" y="357.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.ltp.bridge.AbstractStyle" target="com.ltp.bridge.Phone" relationship="TO_ONE">
+      <point x="-46.5" y="-50.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.UprightPhone" target="com.ltp.bridge.Phone" relationship="DEPENDENCY">
+      <point x="47.0" y="-39.0" />
+      <point x="719.25" y="85.0" />
+      <point x="546.1684782608695" y="85.0" />
+      <point x="546.1684782608695" y="75.0" />
+      <point x="413.5" y="75.0" />
+      <point x="37.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.AbstractStyle" target="com.ltp.bridge.Phone" relationship="DEPENDENCY">
+      <point x="46.5" y="-50.5" />
+      <point x="469.5" y="85.0" />
+      <point x="546.1684782608695" y="85.0" />
+      <point x="546.1684782608695" y="75.0" />
+      <point x="413.5" y="75.0" />
+      <point x="37.0" y="27.5" />
+    </edge>
+    <edge source="com.ltp.bridge.BridgeClient" target="com.ltp.bridge.VivoPhone" relationship="CREATE">
+      <point x="-20.5" y="-39.0" />
+      <point x="338.2554347826087" y="357.0" />
+      <point x="242.49999999999997" y="357.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="383.5" y="233.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
