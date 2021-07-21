@@ -1,6 +1,5 @@
 package com.ltp.prototype.deep;
 
-import lombok.*;
 
 import java.io.Serializable;
 

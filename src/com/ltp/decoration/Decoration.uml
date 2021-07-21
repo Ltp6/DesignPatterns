@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.decoration.Coffee</OriginalElement>
+  <nodes>
+    <node x="548.4125" y="377.0">com.ltp.decoration.LongBack</node>
+    <node x="475.0375" y="221.0">com.ltp.decoration.Coffee</node>
+    <node x="403.4125" y="377.0">com.ltp.decoration.ShortBack</node>
+    <node x="289.2875" y="0.0">com.ltp.decoration.Drink</node>
+    <node x="0.0" y="197.0">com.ltp.decoration.Decoration</node>
+    <node x="234.4125" y="377.0">com.ltp.decoration.Chocolate</node>
+    <node x="98.41250000000002" y="377.0">com.ltp.decoration.Milk</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.decoration.ShortBack" target="com.ltp.decoration.Drink" relationship="DEPENDENCY">
+      <point x="-31.25" y="-28.0" />
+      <point x="434.6625" y="356.0" />
+      <point x="429.1625" y="356.0" />
+      <point x="429.1625" y="167.0" />
+      <point x="506.2875" y="167.0" />
+      <point x="506.2875" y="157.0" />
+      <point x="394.2875" y="157.0" />
+      <point x="42.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.Milk" target="com.ltp.decoration.Drink" relationship="DEPENDENCY">
+      <point x="-29.0" y="-28.0" />
+      <point x="127.41250000000002" y="356.0" />
+      <point x="165.5" y="356.0" />
+      <point x="165.5" y="167.0" />
+      <point x="506.2875" y="167.0" />
+      <point x="506.2875" y="157.0" />
+      <point x="394.2875" y="157.0" />
+      <point x="42.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.Decoration" target="com.ltp.decoration.Drink" relationship="TO_ONE">
+      <point x="-38.75" y="-64.0" />
+      <point x="38.75" y="157.0" />
+      <point x="310.2875" y="157.0" />
+      <point x="-42.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.Chocolate" target="com.ltp.decoration.Decoration" relationship="GENERALIZATION">
+      <point x="-37.25" y="-28.0" />
+      <point x="271.6625" y="356.0" />
+      <point x="228.5375" y="356.0" />
+      <point x="228.5375" y="346.0" />
+      <point x="77.5" y="346.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.ltp.decoration.Milk" target="com.ltp.decoration.Decoration" relationship="GENERALIZATION">
+      <point x="29.0" y="-28.0" />
+      <point x="185.41250000000002" y="356.0" />
+      <point x="228.5375" y="356.0" />
+      <point x="228.5375" y="346.0" />
+      <point x="77.5" y="346.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.ltp.decoration.ShortBack" target="com.ltp.decoration.Coffee" relationship="GENERALIZATION">
+      <point x="31.25" y="-28.0" />
+      <point x="497.1625" y="356.0" />
+      <point x="538.0375" y="356.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.decoration.Chocolate" target="com.ltp.decoration.Drink" relationship="DEPENDENCY">
+      <point x="37.25" y="-28.0" />
+      <point x="346.1625" y="356.0" />
+      <point x="328.5" y="356.0" />
+      <point x="328.5" y="167.0" />
+      <point x="506.2875" y="167.0" />
+      <point x="506.2875" y="157.0" />
+      <point x="394.2875" y="157.0" />
+      <point x="42.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.Coffee" target="com.ltp.decoration.Drink" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="538.0375" y="177.0" />
+      <point x="311.175" y="177.0" />
+      <point x="311.175" y="147.0" />
+      <point x="352.2875" y="147.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.LongBack" target="com.ltp.decoration.Coffee" relationship="GENERALIZATION">
+      <point x="-30.5" y="-28.0" />
+      <point x="578.9125" y="356.0" />
+      <point x="538.0375" y="356.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.decoration.LongBack" target="com.ltp.decoration.Drink" relationship="DEPENDENCY">
+      <point x="30.50000000000003" y="-28.0" />
+      <point x="639.9125" y="356.0" />
+      <point x="646.1625" y="356.0" />
+      <point x="646.1625" y="167.0" />
+      <point x="506.2875" y="167.0" />
+      <point x="506.2875" y="157.0" />
+      <point x="394.2875" y="157.0" />
+      <point x="42.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.decoration.Decoration" target="com.ltp.decoration.Drink" relationship="GENERALIZATION">
+      <point x="38.75" y="-64.0" />
+      <point x="116.25" y="177.0" />
+      <point x="311.175" y="177.0" />
+      <point x="311.175" y="147.0" />
+      <point x="352.2875" y="147.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="335.5" y="216.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

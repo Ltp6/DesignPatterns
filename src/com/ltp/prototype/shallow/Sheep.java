@@ -1,8 +1,5 @@
 package com.ltp.prototype.shallow;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 
 public class Sheep implements Cloneable {
