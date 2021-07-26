@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.flyweight.Client</OriginalElement>
+  <nodes>
+    <node x="174.44607843137254" y="466.0">com.ltp.flyweight.Client</node>
+    <node x="0.0" y="130.0">com.ltp.flyweight.ConCreateWebsite</node>
+    <node x="52.80392156862746" y="286.0">com.ltp.flyweight.WebsiteFactory</node>
+    <node x="136.0686274509804" y="0.0">com.ltp.flyweight.AbstractWebsite</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.flyweight.ConCreateWebsite" target="com.ltp.flyweight.AbstractWebsite" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="101.0" y="110.0" />
+      <point x="165.0686274509804" y="110.0" />
+      <point x="-58.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.flyweight.WebsiteFactory" target="com.ltp.flyweight.AbstractWebsite" relationship="DEPENDENCY">
+      <point x="86.66666666666669" y="-64.0" />
+      <point x="269.47058823529414" y="260.0" />
+      <point x="234.0686274509804" y="260.0" />
+      <point x="234.06862745098042" y="110.0" />
+      <point x="260.9852941176471" y="110.0" />
+      <point x="260.9852941176471" y="100.0" />
+      <point x="281.0686274509804" y="100.0" />
+      <point x="58.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.flyweight.Client" target="com.ltp.flyweight.AbstractWebsite" relationship="DEPENDENCY">
+      <point x="38.75" y="-40.0" />
+      <point x="290.69607843137254" y="440.0" />
+      <point x="323.30392156862746" y="440.0" />
+      <point x="323.30392156862746" y="110.0" />
+      <point x="260.9852941176471" y="110.0" />
+      <point x="260.9852941176471" y="100.0" />
+      <point x="281.0686274509804" y="100.0" />
+      <point x="58.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.flyweight.Client" target="com.ltp.flyweight.WebsiteFactory" relationship="CREATE">
+      <point x="-38.75" y="-40.0" />
+      <point x="213.19607843137254" y="440.0" />
+      <point x="182.80392156862746" y="440.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.ltp.flyweight.WebsiteFactory" target="com.ltp.flyweight.ConCreateWebsite" relationship="CREATE">
+      <point x="-86.66666666666669" y="-64.0" />
+      <point x="96.13725490196077" y="260.0" />
+      <point x="101.0" y="260.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.ltp.flyweight.WebsiteFactory" target="com.ltp.flyweight.AbstractWebsite" relationship="TO_MANY">
+      <point x="0.0" y="-64.0" />
+      <point x="182.80392156862746" y="260.0" />
+      <point x="212.5" y="260.0" />
+      <point x="212.50000000000003" y="110.0" />
+      <point x="223.0686274509804" y="110.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="-295.5" y="273.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
