@@ -16,5 +16,11 @@ public class Client {
         order = new Milk(order);
 
         System.out.println("加入牛奶费用：" + order.cost() + "\t描述：" + order.getDesc());
+
+        //加入巧克力
+        order = new Chocolate(order);
+        System.out.println("加入巧克力费用：" + order.cost() + "\t描述：" + order.getDesc());
     }
+
+
 }
