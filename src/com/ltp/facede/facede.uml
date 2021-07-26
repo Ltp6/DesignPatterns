@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.facede.Client</OriginalElement>
+  <nodes>
+    <node x="177.0" y="11.5">com.ltp.facede.Screen</node>
+    <node x="0.0" y="0.0">com.ltp.facede.DvdPlayer</node>
+    <node x="57.374999999999986" y="200.0">com.ltp.facede.HomeTheatreFacede</node>
+    <node x="82.37499999999999" y="400.0">com.ltp.facede.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.facede.HomeTheatreFacede" target="com.ltp.facede.DvdPlayer" relationship="TO_ONE">
+      <point x="-25.625" y="-75.0" />
+      <point x="134.25" y="175.0" />
+      <point x="117.75" y="175.0" />
+      <point x="39.25" y="75.0" />
+    </edge>
+    <edge source="com.ltp.facede.HomeTheatreFacede" target="com.ltp.facede.Screen" relationship="DEPENDENCY">
+      <point x="76.875" y="-75.0" />
+      <point x="236.75" y="175.0" />
+      <point x="280.5" y="175.0" />
+      <point x="34.5" y="63.5" />
+    </edge>
+    <edge source="com.ltp.facede.HomeTheatreFacede" target="com.ltp.facede.DvdPlayer" relationship="DEPENDENCY">
+      <point x="-76.875" y="-75.0" />
+      <point x="82.99999999999999" y="175.0" />
+      <point x="39.25" y="175.0" />
+      <point x="-39.25" y="75.0" />
+    </edge>
+    <edge source="com.ltp.facede.HomeTheatreFacede" target="com.ltp.facede.Screen" relationship="TO_ONE">
+      <point x="25.625" y="-75.0" />
+      <point x="185.5" y="175.0" />
+      <point x="211.5" y="175.0" />
+      <point x="-34.5" y="63.5" />
+    </edge>
+    <edge source="com.ltp.facede.Client" target="com.ltp.facede.HomeTheatreFacede" relationship="CREATE">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="157.5" y="240.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
