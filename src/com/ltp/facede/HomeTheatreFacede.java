@@ -16,6 +16,7 @@ public class HomeTheatreFacede {
     }
 
     public void ready() {
+        dvdPlayer.on();
         dvdPlayer.play();
         screen.down();
     }

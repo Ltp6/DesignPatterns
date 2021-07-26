@@ -9,5 +9,7 @@ public class Client {
     public static void main(String[] args) {
         HomeTheatreFacede homeTheatreFacede = new HomeTheatreFacede();
         homeTheatreFacede.ready();
+        System.out.println("================");
+        homeTheatreFacede.stop();
     }
 }
