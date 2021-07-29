@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.proxy.dynamic.DynamicClient</OriginalElement>
+  <nodes>
+    <node x="191.99999999999997" y="118.0">com.ltp.proxy.TeachDao</node>
+    <node x="175.99999999999997" y="262.0">com.ltp.proxy.dynamic.DynamicClient</node>
+    <node x="0.0" y="106.0">com.ltp.proxy.dynamic.ProxyFactory</node>
+    <node x="229.04999999999998" y="0.0">com.ltp.proxy.ITeachDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.proxy.dynamic.DynamicClient" target="com.ltp.proxy.TeachDao" relationship="CREATE">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.proxy.dynamic.DynamicClient" target="com.ltp.proxy.ITeachDao" relationship="DEPENDENCY">
+      <point x="52.0" y="-40.0" />
+      <point x="306.0" y="236.0" />
+      <point x="326.5" y="236.0" />
+      <point x="326.5" y="81.0" />
+      <point x="325.04999999999995" y="81.0" />
+      <point x="31.999999999999986" y="28.0" />
+    </edge>
+    <edge source="com.ltp.proxy.dynamic.DynamicClient" target="com.ltp.proxy.dynamic.ProxyFactory" relationship="CREATE">
+      <point x="-52.0" y="-40.0" />
+      <point x="201.99999999999997" y="236.0" />
+      <point x="86.0" y="236.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.ltp.proxy.TeachDao" target="com.ltp.proxy.ITeachDao" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="253.99999999999997" y="81.0" />
+      <point x="261.04999999999995" y="81.0" />
+      <point x="-32.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="179.0" y="171.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

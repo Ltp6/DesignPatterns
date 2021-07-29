@@ -7,7 +7,7 @@ import com.ltp.proxy.TeachDao;
  * @Author: Ltp
  * @Date: 2021/7/28 23:30
  */
-public class Client {
+public class StaticProxyClient {
     public static void main(String[] args) {
         //创建目标对象
         TeachDao teachDao = new TeachDao();

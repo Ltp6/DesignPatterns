@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.proxy.cglib.CglibClient</OriginalElement>
+  <nodes>
+    <node x="182.0" y="0.0">net.sf.cglib.proxy.MethodInterceptor</node>
+    <node x="182.0" y="106.0">com.ltp.proxy.cglib.ProxyFactory</node>
+    <node x="148.5" y="284.0">com.ltp.proxy.cglib.CglibClient</node>
+    <node x="0.0" y="130.0">com.ltp.proxy.cglib.CglibTeachDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.proxy.cglib.CglibClient" target="com.ltp.proxy.cglib.CglibTeachDao" relationship="CREATE">
+      <point x="-38.75" y="-40.0" />
+      <point x="187.25" y="259.0" />
+      <point x="81.0" y="259.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.proxy.cglib.CglibClient" target="com.ltp.proxy.cglib.ProxyFactory" relationship="CREATE">
+      <point x="38.75" y="-40.0" />
+      <point x="264.75" y="259.0" />
+      <point x="371.0" y="259.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.ltp.proxy.cglib.ProxyFactory" target="net.sf.cglib.proxy.MethodInterceptor" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="280.0" y="182.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
