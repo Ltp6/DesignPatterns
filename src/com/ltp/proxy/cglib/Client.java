@@ -11,7 +11,7 @@ public class Client {
     public static void main(String[] args) {
         //创建目标对象
         CglibTeachDao teachDao = new CglibTeachDao();
-        ITeachDao proxy = (ITeachDao) new ProxyFactory(teachDao).getProxy();
+        CglibTeachDao proxy = (CglibTeachDao) new ProxyFactory(teachDao).getProxy();
         //执行目标方法 触发intercept方法
         proxy.teach();
     }
