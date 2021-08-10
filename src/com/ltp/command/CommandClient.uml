@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.command.CommandClient</OriginalElement>
+  <nodes>
+    <node x="171.25000000000003" y="129.0">com.ltp.command.NoCommand</node>
+    <node x="10.5" y="294.0">com.ltp.command.RemoteController</node>
+    <node x="340.5" y="340.0">com.ltp.command.LightOnCommand</node>
+    <node x="346.4997395833334" y="575.0">com.ltp.command.CommandClient</node>
+    <node x="38.51145833333351" y="0.0">com.ltp.command.Command</node>
+    <node x="486.7497395833334" y="129.0">com.ltp.command.LightReceiver</node>
+    <node x="603.5" y="340.0">com.ltp.command.LightOffCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.command.LightOnCommand" target="com.ltp.command.Command" relationship="REALIZATION">
+      <point x="-80.66666666666669" y="-63.5" />
+      <point x="380.83333333333337" y="273.0" />
+      <point x="403.2614583333335" y="273.0" />
+      <point x="403.2614583333335" y="99.0" />
+      <point x="184.34479166666688" y="99.0" />
+      <point x="58.33333333333337" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.RemoteController" target="com.ltp.command.NoCommand" relationship="CREATE">
+      <point x="116.25" y="-109.5" />
+      <point x="281.75" y="273.0" />
+      <point x="258.75" y="273.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.CommandClient" target="com.ltp.command.RemoteController" relationship="CREATE">
+      <point x="-33.80000000000001" y="-40.0" />
+      <point x="397.1997395833334" y="544.0" />
+      <point x="165.5" y="544.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.ltp.command.CommandClient" target="com.ltp.command.LightOnCommand" relationship="CREATE">
+      <point x="0.0" y="-40.0" />
+      <point x="430.9997395833334" y="534.0" />
+      <point x="461.5" y="534.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.command.RemoteController" target="com.ltp.command.Command" relationship="CREATE">
+      <point x="-116.25" y="-109.5" />
+      <point x="49.25" y="273.0" />
+      <point x="89.2611979166669" y="273.0" />
+      <point x="89.2611979166669" y="109.0" />
+      <point x="64.6361979166669" y="109.0" />
+      <point x="64.6361979166669" y="99.0" />
+      <point x="67.67812500000014" y="99.0" />
+      <point x="-58.33333333333337" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.RemoteController" target="com.ltp.command.Command" relationship="TO_ONE">
+      <point x="-38.75" y="-109.5" />
+      <point x="126.75" y="273.0" />
+      <point x="128.70572916666677" y="273.0" />
+      <point x="128.70572916666677" y="109.0" />
+      <point x="134.9997395833334" y="109.0" />
+      <point x="134.9997395833334" y="99.0" />
+      <point x="126.01145833333351" y="99.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.CommandClient" target="com.ltp.command.LightReceiver" relationship="CREATE">
+      <point x="33.80000000000001" y="-40.0" />
+      <point x="464.7997395833334" y="544.0" />
+      <point x="593.0" y="544.0" />
+      <point x="593.0" y="273.0" />
+      <point x="508.2890625000001" y="273.0" />
+      <point x="508.2890625000001" y="263.0" />
+      <point x="524.7497395833334" y="263.0" />
+      <point x="-38.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.CommandClient" target="com.ltp.command.LightOffCommand" relationship="CREATE">
+      <point x="67.60000000000002" y="-40.0" />
+      <point x="498.5997395833334" y="554.0" />
+      <point x="725.0" y="554.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.command.LightOnCommand" target="com.ltp.command.LightReceiver" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="461.5" y="273.0" />
+      <point x="508.2890625000001" y="273.0" />
+      <point x="508.2890625000001" y="263.0" />
+      <point x="524.7497395833334" y="263.0" />
+      <point x="-38.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.RemoteController" target="com.ltp.command.Command" relationship="TO_MANY">
+      <point x="38.75" y="-109.5" />
+      <point x="204.25" y="273.0" />
+      <point x="139.70572916666677" y="273.0" />
+      <point x="139.70572916666677" y="109.0" />
+      <point x="134.9997395833334" y="109.0" />
+      <point x="134.9997395833334" y="99.0" />
+      <point x="126.01145833333351" y="99.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.LightOnCommand" target="com.ltp.command.LightReceiver" relationship="TO_ONE">
+      <point x="80.66666666666669" y="-63.5" />
+      <point x="542.1666666666667" y="263.0" />
+      <point x="694.4997395833334" y="263.0" />
+      <point x="694.4997395833334" y="253.0" />
+      <point x="600.7497395833334" y="253.0" />
+      <point x="38.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.NoCommand" target="com.ltp.command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="258.75" y="109.0" />
+      <point x="403.2614583333335" y="109.0" />
+      <point x="403.2614583333335" y="99.0" />
+      <point x="184.34479166666688" y="99.0" />
+      <point x="58.33333333333337" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.LightOffCommand" target="com.ltp.command.LightReceiver" relationship="DEPENDENCY">
+      <point x="-81.0" y="-63.5" />
+      <point x="644.0" y="273.0" />
+      <point x="508.2890625000001" y="273.0" />
+      <point x="508.2890625000001" y="263.0" />
+      <point x="524.7497395833334" y="263.0" />
+      <point x="-38.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.LightOffCommand" target="com.ltp.command.Command" relationship="REALIZATION">
+      <point x="81.0" y="-63.5" />
+      <point x="806.0" y="273.0" />
+      <point x="763.3054687500002" y="273.0" />
+      <point x="763.3054687500002" y="109.0" />
+      <point x="403.2614583333335" y="109.0" />
+      <point x="403.2614583333335" y="99.0" />
+      <point x="184.34479166666688" y="99.0" />
+      <point x="58.33333333333337" y="39.5" />
+    </edge>
+    <edge source="com.ltp.command.LightOffCommand" target="com.ltp.command.LightReceiver" relationship="TO_ONE">
+      <point x="0.0" y="-63.5" />
+      <point x="725.0" y="263.0" />
+      <point x="694.4997395833334" y="263.0" />
+      <point x="694.4997395833334" y="253.0" />
+      <point x="600.7497395833334" y="253.0" />
+      <point x="38.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.command.CommandClient" target="com.ltp.command.Command" relationship="DEPENDENCY">
+      <point x="-67.60000000000002" y="-40.0" />
+      <point x="363.39973958333337" y="554.0" />
+      <point x="0.0" y="554.0" />
+      <point x="0.0" y="109.0" />
+      <point x="64.6361979166669" y="109.0" />
+      <point x="64.6361979166669" y="99.0" />
+      <point x="67.67812500000014" y="99.0" />
+      <point x="-58.33333333333337" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="428.0" y="322.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
