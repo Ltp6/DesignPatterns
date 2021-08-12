@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.iterator.IteratorClient</OriginalElement>
+  <nodes>
+    <node x="387.7112962962964" y="479.0">com.ltp.iterator.ComputerCollege</node>
+    <node x="930.8083333333334" y="0.0">com.ltp.iterator.Department</node>
+    <node x="951.6044444444444" y="217.0">com.ltp.iterator.InfoCollegeIterator</node>
+    <node x="73.71129629629638" y="502.5">com.ltp.iterator.OutputImpl</node>
+    <node x="502.40000000000003" y="1.0">java.util.Iterator</node>
+    <node x="0.0" y="240.5">com.ltp.iterator.College</node>
+    <node x="805.6044444444444" y="490.5">com.ltp.iterator.InfoCollege</node>
+    <node x="506.1044444444444" y="715.0">com.ltp.iterator.IteratorClient</node>
+    <node x="636.6044444444444" y="217.0">com.ltp.iterator.ComputerCollegeIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.iterator.OutputImpl" target="com.ltp.iterator.College" relationship="DEPENDENCY">
+      <point x="-117.60000000000002" y="-63.5" />
+      <point x="103.11129629629636" y="458.0" />
+      <point x="63.21129629629638" y="458.0" />
+      <point x="63.21129629629638" y="448.0" />
+      <point x="42.0" y="448.0" />
+      <point x="-84.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollege" target="com.ltp.iterator.Department" relationship="TO_MANY">
+      <point x="0.0" y="-75.5" />
+      <point x="941.1044444444444" y="187.0" />
+      <point x="703.0166666666669" y="187.0" />
+      <point x="703.0166666666669" y="157.0" />
+      <point x="981.8083333333334" y="157.0" />
+      <point x="-51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollegeIterator" target="com.ltp.iterator.Department" relationship="DEPENDENCY">
+      <point x="92.33333333333331" y="-75.0" />
+      <point x="1182.4377777777777" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.OutputImpl" target="com.ltp.iterator.Department" relationship="TO_MANY">
+      <point x="58.799999999999955" y="-63.5" />
+      <point x="279.51129629629634" y="408.0" />
+      <point x="529.0681481481481" y="408.0" />
+      <point x="529.0681481481481" y="187.0" />
+      <point x="703.0166666666669" y="187.0" />
+      <point x="703.0166666666669" y="157.0" />
+      <point x="981.8083333333334" y="157.0" />
+      <point x="-51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollegeIterator" target="java.util.Iterator" relationship="REALIZATION">
+      <point x="0.0" y="-75.0" />
+      <point x="778.1044444444444" y="177.0" />
+      <point x="1022.1403703703702" y="177.0" />
+      <point x="1022.1403703703702" y="147.0" />
+      <point x="743.1500000000001" y="147.0" />
+      <point x="80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollege" target="java.util.Iterator" relationship="DEPENDENCY">
+      <point x="-108.39999999999998" y="-87.0" />
+      <point x="414.8112962962964" y="398.0" />
+      <point x="457.1000000000001" y="398.0" />
+      <point x="457.1000000000001" y="197.0" />
+      <point x="398.9000000000001" y="197.0" />
+      <point x="398.9000000000001" y="177.0" />
+      <point x="582.6500000000001" y="177.0" />
+      <point x="-80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.OutputImpl" target="com.ltp.iterator.Department" relationship="DEPENDENCY">
+      <point x="117.59999999999991" y="-63.5" />
+      <point x="338.3112962962963" y="438.0" />
+      <point x="930.1044444444444" y="438.0" />
+      <point x="930.1044444444444" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollege" target="com.ltp.iterator.Department" relationship="CREATE">
+      <point x="54.200000000000045" y="-87.0" />
+      <point x="577.4112962962964" y="448.0" />
+      <point x="1291.2294444444444" y="448.0" />
+      <point x="1291.2294444444444" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollegeIterator" target="java.util.Iterator" relationship="REALIZATION">
+      <point x="-5.6843418860808015E-14" y="-75.0" />
+      <point x="1090.1044444444444" y="177.0" />
+      <point x="1022.1403703703702" y="177.0" />
+      <point x="1022.1403703703702" y="147.0" />
+      <point x="743.1500000000001" y="147.0" />
+      <point x="80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollege" target="com.ltp.iterator.College" relationship="REALIZATION">
+      <point x="-108.39999999999998" y="-75.5" />
+      <point x="832.7044444444444" y="408.0" />
+      <point x="604.6044444444444" y="408.0" />
+      <point x="604.6044444444444" y="388.0" />
+      <point x="210.0" y="388.0" />
+      <point x="84.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollegeIterator" target="com.ltp.iterator.Department" relationship="TO_MANY">
+      <point x="-92.33333333333337" y="-75.0" />
+      <point x="997.771111111111" y="187.0" />
+      <point x="703.0166666666669" y="187.0" />
+      <point x="703.0166666666669" y="157.0" />
+      <point x="981.8083333333334" y="157.0" />
+      <point x="-51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollegeIterator" target="com.ltp.iterator.Department" relationship="DEPENDENCY">
+      <point x="94.33333333333337" y="-75.0" />
+      <point x="872.4377777777778" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.College" target="java.util.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-51.5" />
+      <point x="126.0" y="197.0" />
+      <point x="398.9000000000001" y="197.0" />
+      <point x="398.9000000000001" y="177.0" />
+      <point x="582.6500000000001" y="177.0" />
+      <point x="-80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollege" target="com.ltp.iterator.ComputerCollegeIterator" relationship="CREATE">
+      <point x="0.0" y="-87.0" />
+      <point x="523.2112962962964" y="428.0" />
+      <point x="778.1044444444444" y="428.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+    <edge source="com.ltp.iterator.IteratorClient" target="com.ltp.iterator.ComputerCollege" relationship="CREATE">
+      <point x="0.0" y="-40.0" />
+      <point x="583.6044444444444" y="674.0" />
+      <point x="523.2112962962964" y="674.0" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollege" target="com.ltp.iterator.College" relationship="REALIZATION">
+      <point x="108.39999999999998" y="-87.0" />
+      <point x="631.6112962962964" y="408.0" />
+      <point x="604.6044444444444" y="408.0" />
+      <point x="604.6044444444444" y="388.0" />
+      <point x="210.0" y="388.0" />
+      <point x="84.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollegeIterator" target="com.ltp.iterator.Department" relationship="TO_MANY">
+      <point x="-94.33333333333326" y="-75.0" />
+      <point x="683.7711111111112" y="187.0" />
+      <point x="703.0166666666669" y="187.0" />
+      <point x="703.0166666666669" y="157.0" />
+      <point x="981.8083333333334" y="157.0" />
+      <point x="-51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.IteratorClient" target="com.ltp.iterator.College" relationship="DEPENDENCY">
+      <point x="-62.0" y="-40.0" />
+      <point x="521.6044444444444" y="694.0" />
+      <point x="63.21129629629638" y="694.0" />
+      <point x="63.21129629629638" y="448.0" />
+      <point x="42.0" y="448.0" />
+      <point x="-84.0" y="51.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollege" target="com.ltp.iterator.Department" relationship="CREATE">
+      <point x="108.39999999999995" y="-75.5" />
+      <point x="1049.5044444444443" y="458.0" />
+      <point x="1291.2294444444444" y="458.0" />
+      <point x="1291.2294444444444" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollege" target="java.util.Iterator" relationship="DEPENDENCY">
+      <point x="-54.19999999999999" y="-75.5" />
+      <point x="886.9044444444445" y="398.0" />
+      <point x="615.1044444444444" y="398.0" />
+      <point x="615.1044444444444" y="197.0" />
+      <point x="398.9000000000001" y="197.0" />
+      <point x="398.9000000000001" y="177.0" />
+      <point x="582.6500000000001" y="177.0" />
+      <point x="-80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.IteratorClient" target="com.ltp.iterator.InfoCollege" relationship="CREATE">
+      <point x="31.0" y="-40.0" />
+      <point x="614.6044444444444" y="684.0" />
+      <point x="941.1044444444444" y="684.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.ltp.iterator.IteratorClient" target="com.ltp.iterator.OutputImpl" relationship="CREATE">
+      <point x="-31.0" y="-40.0" />
+      <point x="552.6044444444444" y="684.0" />
+      <point x="220.71129629629638" y="684.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.IteratorClient" target="com.ltp.iterator.Department" relationship="DEPENDENCY">
+      <point x="62.0" y="-40.0" />
+      <point x="645.6044444444444" y="694.0" />
+      <point x="1308.868148148148" y="694.0" />
+      <point x="1308.868148148148" y="167.0" />
+      <point x="1275.3903703703704" y="167.0" />
+      <point x="1275.3903703703704" y="157.0" />
+      <point x="1083.8083333333334" y="157.0" />
+      <point x="51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.OutputImpl" target="java.util.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="220.71129629629638" y="458.0" />
+      <point x="262.5" y="458.0" />
+      <point x="262.5" y="197.0" />
+      <point x="398.9000000000001" y="197.0" />
+      <point x="398.9000000000001" y="177.0" />
+      <point x="582.6500000000001" y="177.0" />
+      <point x="-80.25" y="62.5" />
+    </edge>
+    <edge source="com.ltp.iterator.ComputerCollege" target="com.ltp.iterator.Department" relationship="TO_MANY">
+      <point x="-54.200000000000045" y="-87.0" />
+      <point x="469.01129629629634" y="418.0" />
+      <point x="626.1044444444444" y="418.0" />
+      <point x="626.1044444444444" y="187.0" />
+      <point x="703.0166666666669" y="187.0" />
+      <point x="703.0166666666669" y="157.0" />
+      <point x="981.8083333333334" y="157.0" />
+      <point x="-51.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.iterator.InfoCollege" target="com.ltp.iterator.InfoCollegeIterator" relationship="CREATE">
+      <point x="54.19999999999999" y="-75.5" />
+      <point x="995.3044444444445" y="438.0" />
+      <point x="1090.1044444444444" y="438.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+    <edge source="com.ltp.iterator.OutputImpl" target="com.ltp.iterator.College" relationship="TO_MANY">
+      <point x="-58.799999999999955" y="-63.5" />
+      <point x="161.91129629629643" y="458.0" />
+      <point x="126.0" y="458.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="659.0" y="397.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
