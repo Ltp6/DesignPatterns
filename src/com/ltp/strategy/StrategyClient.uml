@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.strategy.StrategyClient</OriginalElement>
+  <nodes>
+    <node x="555.0" y="106.0">com.ltp.strategy.AbstractDuck</node>
+    <node x="359.0" y="129.5">com.ltp.strategy.GoodFlyBehavior</node>
+    <node x="182.0" y="129.5">com.ltp.strategy.NoFlyBehavior</node>
+    <node x="217.75" y="283.0">com.ltp.strategy.ToyDuck</node>
+    <node x="370.6931818181818" y="283.0">com.ltp.strategy.WildDuck</node>
+    <node x="0.0" y="129.5">com.ltp.strategy.BadFlyBehavior</node>
+    <node x="275.75" y="415.0">com.ltp.strategy.StrategyClient</node>
+    <node x="562.9431818181818" y="0.0">com.ltp.strategy.FlyBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.strategy.StrategyClient" target="com.ltp.strategy.ToyDuck" relationship="CREATE">
+      <point x="-19.5" y="-40.0" />
+      <point x="334.25" y="384.0" />
+      <point x="280.75" y="384.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.strategy.GoodFlyBehavior" target="com.ltp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="447.0" y="86.0" />
+      <point x="265.5" y="86.0" />
+      <point x="265.5" y="76.0" />
+      <point x="585.4431818181818" y="76.0" />
+      <point x="-45.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.strategy.ToyDuck" target="com.ltp.strategy.NoFlyBehavior" relationship="CREATE">
+      <point x="-31.5" y="-40.0" />
+      <point x="249.25" y="263.0" />
+      <point x="260.5" y="263.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.strategy.AbstractDuck" target="com.ltp.strategy.FlyBehavior" relationship="DEPENDENCY">
+      <point x="-45.5" y="-63.5" />
+      <point x="600.5" y="86.0" />
+      <point x="630.4431818181818" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.strategy.StrategyClient" target="com.ltp.strategy.WildDuck" relationship="CREATE">
+      <point x="19.5" y="-40.0" />
+      <point x="373.25" y="384.0" />
+      <point x="433.6931818181818" y="384.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.strategy.WildDuck" target="com.ltp.strategy.GoodFlyBehavior" relationship="CREATE">
+      <point x="31.5" y="-40.0" />
+      <point x="465.1931818181818" y="263.0" />
+      <point x="447.0" y="263.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.strategy.BadFlyBehavior" target="com.ltp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="81.0" y="86.0" />
+      <point x="265.5" y="86.0" />
+      <point x="265.5" y="76.0" />
+      <point x="585.4431818181818" y="76.0" />
+      <point x="-45.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.strategy.NoFlyBehavior" target="com.ltp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="260.5" y="86.0" />
+      <point x="265.5" y="86.0" />
+      <point x="265.5" y="76.0" />
+      <point x="585.4431818181818" y="76.0" />
+      <point x="-45.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.strategy.AbstractDuck" target="com.ltp.strategy.FlyBehavior" relationship="TO_ONE">
+      <point x="45.5" y="-63.5" />
+      <point x="691.5" y="86.0" />
+      <point x="675.4431818181818" y="86.0" />
+      <point x="45.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.strategy.StrategyClient" target="com.ltp.strategy.BadFlyBehavior" relationship="CREATE">
+      <point x="-58.5" y="-40.0" />
+      <point x="295.25" y="394.0" />
+      <point x="81.0" y="394.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.strategy.ToyDuck" target="com.ltp.strategy.AbstractDuck" relationship="GENERALIZATION">
+      <point x="31.5" y="-40.0" />
+      <point x="312.25" y="263.0" />
+      <point x="360.6931818181818" y="263.0" />
+      <point x="360.6931818181818" y="253.0" />
+      <point x="600.5" y="253.0" />
+      <point x="-45.5" y="63.5" />
+    </edge>
+    <edge source="com.ltp.strategy.WildDuck" target="com.ltp.strategy.AbstractDuck" relationship="GENERALIZATION">
+      <point x="-31.5" y="-40.0" />
+      <point x="402.1931818181818" y="263.0" />
+      <point x="360.6931818181818" y="263.0" />
+      <point x="360.6931818181818" y="253.0" />
+      <point x="600.5" y="253.0" />
+      <point x="-45.5" y="63.5" />
+    </edge>
+    <edge source="com.ltp.strategy.StrategyClient" target="com.ltp.strategy.AbstractDuck" relationship="DEPENDENCY">
+      <point x="58.5" y="-40.0" />
+      <point x="412.25" y="394.0" />
+      <point x="698.4431818181819" y="394.0" />
+      <point x="698.4431818181819" y="263.0" />
+      <point x="691.5" y="263.0" />
+      <point x="45.5" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="368.5" y="247.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
