@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.state.ClientState</OriginalElement>
+  <nodes>
+    <node x="955.4831630634634" y="387.5">com.ltp.state.AllState.GenerateState</node>
+    <node x="400.28547159712474" y="399.0">com.ltp.state.AllState.PublishState</node>
+    <node x="-589.1966737226728" y="295.0">com.ltp.state.Context</node>
+    <node x="69.44845360824735" y="0.0">com.ltp.state.State</node>
+    <node x="-304.51106560238316" y="387.0">com.ltp.state.AllState.PaidState</node>
+    <node x="145.68662586395544" y="399.0">com.ltp.state.AllState.NotPayState</node>
+    <node x="-51.91221986921386" y="399.0">com.ltp.state.AllState.FeedBackState</node>
+    <node x="231.18905191873563" y="637.0">com.ltp.state.ClientState</node>
+    <node x="696.8843173302942" y="410.5">com.ltp.state.AllState.ReviewState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.state.State" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-86.0" y="120.5" />
+      <point x="112.44845360824735" y="273.0" />
+      <point x="-546.1966737226728" y="273.0" />
+      <point x="-86.0" y="-144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.NotPayState" target="com.ltp.state.AllState.FeedBackState" relationship="CREATE">
+      <point x="81.0" y="-63.5" />
+      <point x="334.68662586395544" y="609.0" />
+      <point x="27.587780130786143" y="609.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PublishState" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-96.74999999999994" y="-63.5" />
+      <point x="432.53547159712485" y="609.0" />
+      <point x="-460.1966737226728" y="609.0" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.NotPayState" target="com.ltp.state.AllState.PaidState" relationship="CREATE">
+      <point x="27.0" y="-63.5" />
+      <point x="280.68662586395544" y="609.0" />
+      <point x="-197.51106560238316" y="609.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PublishState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="96.75000000000006" y="-63.5" />
+      <point x="626.0354715971248" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.ClientState" target="com.ltp.state.AllState.PublishState" relationship="CREATE">
+      <point x="38.75" y="-40.0" />
+      <point x="347.43905191873563" y="609.0" />
+      <point x="529.2854715971248" y="609.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.state.Context" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="86.0" y="-144.0" />
+      <point x="-374.1966737226728" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PaidState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="-197.51106560238316" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.NotPayState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="-27.0" y="-63.5" />
+      <point x="226.68662586395544" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.Context" target="com.ltp.state.State" relationship="TO_ONE">
+      <point x="0.0" y="-144.0" />
+      <point x="-460.1966737226728" y="273.0" />
+      <point x="198.44845360824735" y="273.0" />
+      <point x="0.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.GenerateState" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-79.5" y="-63.5" />
+      <point x="981.9831630634635" y="609.0" />
+      <point x="-460.1966737226728" y="609.0" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.FeedBackState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="27.587780130786143" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.ReviewState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="73.33333333333337" y="-52.0" />
+      <point x="880.2176506636275" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PaidState" target="com.ltp.state.AllState.FeedBackState" relationship="CREATE">
+      <point x="71.33333333333331" y="-52.0" />
+      <point x="-126.17773226904984" y="609.0" />
+      <point x="27.587780130786143" y="609.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PublishState" target="com.ltp.state.AllState.FeedBackState" relationship="CREATE">
+      <point x="32.25000000000006" y="-63.5" />
+      <point x="561.5354715971248" y="609.0" />
+      <point x="27.587780130786143" y="609.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.state.ClientState" target="com.ltp.state.Context" relationship="CREATE">
+      <point x="-38.75" y="-40.0" />
+      <point x="269.93905191873563" y="669.8435103775987" />
+      <point x="-460.1966737226728" y="669.8435103775987" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.GenerateState" target="com.ltp.state.AllState.FeedBackState" relationship="CREATE">
+      <point x="26.5" y="-63.5" />
+      <point x="1087.9831630634635" y="273.0" />
+      <point x="601.4896907216491" y="273.0" />
+      <point x="601.4896907216491" y="609.0" />
+      <point x="27.587780130786143" y="609.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.ReviewState" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-73.33333333333326" y="-52.0" />
+      <point x="733.5509839969609" y="609.0" />
+      <point x="-460.1966737226728" y="609.0" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PublishState" target="com.ltp.state.AllState.NotPayState" relationship="CREATE">
+      <point x="-32.24999999999994" y="-63.5" />
+      <point x="497.03547159712485" y="609.0" />
+      <point x="253.68662586395544" y="609.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.NotPayState" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-81.0" y="-63.5" />
+      <point x="172.68662586395544" y="609.0" />
+      <point x="-460.1966737226728" y="609.0" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.ReviewState" target="com.ltp.state.AllState.PublishState" relationship="CREATE">
+      <point x="5.6843418860808015E-14" y="-52.0" />
+      <point x="806.8843173302942" y="609.0" />
+      <point x="529.2854715971248" y="609.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.GenerateState" target="com.ltp.state.State" relationship="REALIZATION">
+      <point x="79.5" y="-63.5" />
+      <point x="1087.9831630634635" y="387.5" />
+      <point x="1087.9831630634635" y="273.0" />
+      <point x="284.44845360824735" y="273.0" />
+      <point x="86.0" y="120.5" />
+    </edge>
+    <edge source="com.ltp.state.AllState.PaidState" target="com.ltp.state.Context" relationship="DEPENDENCY">
+      <point x="-71.33333333333331" y="-52.0" />
+      <point x="-268.84439893571647" y="609.0" />
+      <point x="-460.1966737226728" y="609.0" />
+      <point x="0.0" y="144.0" />
+    </edge>
+    <edge source="com.ltp.state.AllState.GenerateState" target="com.ltp.state.AllState.ReviewState" relationship="CREATE">
+      <point x="-26.5" y="-63.5" />
+      <point x="1034.9831630634635" y="609.0" />
+      <point x="806.8843173302942" y="609.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8672665916760405" showDependencies="true" x="289.0" y="358.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
