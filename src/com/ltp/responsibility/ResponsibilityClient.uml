@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.responsibility.ResponsibilityClient</OriginalElement>
+  <nodes>
+    <node x="606.3562499999999" y="487.0">com.ltp.responsibility.ResponsibilityClient</node>
+    <node x="297.0" y="355.0">com.ltp.responsibility.SchoolMasterApprove</node>
+    <node x="594.0" y="355.0">com.ltp.responsibility.DepartmentApprove</node>
+    <node x="0.0" y="355.0">com.ltp.responsibility.CollegeApprove</node>
+    <node x="546.5572916666666" y="176.0">com.ltp.responsibility.AbstractApprove</node>
+    <node x="442.2104166666667" y="0.0">com.ltp.responsibility.PurchaseRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.responsibility.AbstractApprove" target="com.ltp.responsibility.PurchaseRequest" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="685.0572916666666" y="151.0" />
+      <point x="585.2104166666667" y="151.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.CollegeApprove" target="com.ltp.responsibility.AbstractApprove" relationship="GENERALIZATION">
+      <point x="69.25" y="-40.0" />
+      <point x="207.75" y="334.0" />
+      <point x="536.5572916666666" y="334.0" />
+      <point x="536.5572916666666" y="324.0" />
+      <point x="615.8072916666666" y="324.0" />
+      <point x="-69.25" y="63.5" />
+    </edge>
+    <edge source="com.ltp.responsibility.SchoolMasterApprove" target="com.ltp.responsibility.AbstractApprove" relationship="GENERALIZATION">
+      <point x="69.25" y="-40.0" />
+      <point x="504.75" y="334.0" />
+      <point x="536.5572916666666" y="334.0" />
+      <point x="536.5572916666666" y="324.0" />
+      <point x="615.8072916666666" y="324.0" />
+      <point x="-69.25" y="63.5" />
+    </edge>
+    <edge source="com.ltp.responsibility.ResponsibilityClient" target="com.ltp.responsibility.CollegeApprove" relationship="CREATE">
+      <point x="-78.39999999999998" y="-40.0" />
+      <point x="625.95625" y="466.0" />
+      <point x="138.5" y="466.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.ResponsibilityClient" target="com.ltp.responsibility.PurchaseRequest" relationship="CREATE">
+      <point x="78.39999999999998" y="-40.0" />
+      <point x="782.7562499999999" y="466.0" />
+      <point x="898.7312499999999" y="466.0" />
+      <point x="898.7312499999999" y="151.0" />
+      <point x="585.2104166666667" y="151.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.DepartmentApprove" target="com.ltp.responsibility.PurchaseRequest" relationship="DEPENDENCY">
+      <point x="69.25" y="-40.0" />
+      <point x="801.75" y="334.0" />
+      <point x="898.4812499999999" y="334.0" />
+      <point x="898.4812499999999" y="151.0" />
+      <point x="585.2104166666667" y="151.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.ResponsibilityClient" target="com.ltp.responsibility.AbstractApprove" relationship="DEPENDENCY">
+      <point x="39.19999999999999" y="-40.0" />
+      <point x="743.5562499999999" y="456.0" />
+      <point x="881.5" y="456.0" />
+      <point x="881.5" y="324.0" />
+      <point x="754.3072916666666" y="324.0" />
+      <point x="69.25" y="63.5" />
+    </edge>
+    <edge source="com.ltp.responsibility.ResponsibilityClient" target="com.ltp.responsibility.DepartmentApprove" relationship="CREATE">
+      <point x="0.0" y="-40.0" />
+      <point x="704.3562499999999" y="466.0" />
+      <point x="732.5" y="466.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.ResponsibilityClient" target="com.ltp.responsibility.SchoolMasterApprove" relationship="CREATE">
+      <point x="-39.19999999999999" y="-40.0" />
+      <point x="665.15625" y="456.0" />
+      <point x="435.5" y="456.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.DepartmentApprove" target="com.ltp.responsibility.AbstractApprove" relationship="GENERALIZATION">
+      <point x="-69.25" y="-40.0" />
+      <point x="663.25" y="334.0" />
+      <point x="536.5572916666666" y="334.0" />
+      <point x="536.5572916666666" y="324.0" />
+      <point x="615.8072916666666" y="324.0" />
+      <point x="-69.25" y="63.5" />
+    </edge>
+    <edge source="com.ltp.responsibility.SchoolMasterApprove" target="com.ltp.responsibility.PurchaseRequest" relationship="DEPENDENCY">
+      <point x="-69.25" y="-40.0" />
+      <point x="366.25" y="324.0" />
+      <point x="386.7593749999999" y="324.0" />
+      <point x="386.7593749999999" y="151.0" />
+      <point x="585.2104166666667" y="151.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.ltp.responsibility.CollegeApprove" target="com.ltp.responsibility.PurchaseRequest" relationship="DEPENDENCY">
+      <point x="-69.25" y="-40.0" />
+      <point x="69.25" y="151.0" />
+      <point x="585.2104166666667" y="151.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="462.5" y="283.5" />
+  <SelectedNodes>
+    <node>com.ltp.responsibility.ResponsibilityClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
