@@ -12,7 +12,7 @@ public class Demo9 {
     /** 利用AtomicReference */
     private static final AtomicReference<Demo9> INSTANCE = new AtomicReference<>();
     /**
-     * 私有化
+     * 私有化构造器
      */
     private Demo9(){
     }

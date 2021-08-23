@@ -7,7 +7,7 @@ public class Demo5 {
     }
 
     //创建对象
-    private static Demo5 demo;
+    private volatile static Demo5 demo;
 
     //对外提供唯一获取对象的方法
     public static Demo5 getInstance() {
