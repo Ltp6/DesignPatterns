@@ -6,6 +6,7 @@ import java.io.Serializable;
 
 /**
  * 此时不能使用Lombok的@Data注解，因为@Data会重写equals方法，hashCode方法导致深拷贝失效
+ * @author admin
  */
 
 public class Person implements Cloneable, Serializable {

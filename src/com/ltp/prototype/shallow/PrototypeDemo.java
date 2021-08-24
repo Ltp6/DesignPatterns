@@ -1,6 +1,9 @@
 package com.ltp.prototype.shallow;
 
-//浅拷贝
+/**
+ * @description 浅拷贝
+ * @author admin
+ */
 public class PrototypeDemo {
     public static void main(String[] args) {
         Sheep sheep = new Sheep("jugg", "白色", 23);

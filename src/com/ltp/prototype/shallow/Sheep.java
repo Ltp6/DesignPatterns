@@ -2,6 +2,9 @@ package com.ltp.prototype.shallow;
 
 
 
+/**
+ * @author admin
+ */
 public class Sheep implements Cloneable {
     private String name;
     private String color;
