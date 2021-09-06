@@ -1,16 +1,9 @@
 package com.ltp.single.destroy;
 
-import com.ltp.prototype.deep.Dog;
 import com.ltp.single.Demo5;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
+import java.io.*;
+import java.util.Objects;
 
 /**
  * @Description: 序列化破坏单例
@@ -23,13 +16,13 @@ public class SerializationDemo {
         //懒汉式(线程安全双重检锁)
         var instance = Demo5.getInstance();
         var outputStream = write(instance);
-        var instance1 = read(outputStream);
-        var instance2 = read(outputStream);
-
-        System.out.println(instance1 == instance2);
-        System.out.println(instance1);
-        System.out.println(instance);
-
+        if(Objects.nonNull(outputStream)){
+            var instance1 = read(outputStream);
+            var instance2 = read(outputStream);
+            System.out.println(instance1 == instance2);
+            System.out.println(instance1);
+            System.out.println(instance);
+        }
     }
 
     /**
