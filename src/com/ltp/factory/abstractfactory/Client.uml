@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.factory.abstractfactory.Client</OriginalElement>
+  <nodes>
+    <node x="191.2499999999999" y="368.0">com.ltp.factory.abstractfactory.ItalyDessertFactory</node>
+    <node x="495.94125683060105" y="23.5">com.ltp.factory.abstractfactory.Dessert</node>
+    <node x="488.92759562841525" y="226.5">com.ltp.factory.abstractfactory.MatchaMousse</node>
+    <node x="508.7499999999999" y="499.0">com.ltp.factory.abstractfactory.Client</node>
+    <node x="503.4999999999999" y="368.0">com.ltp.factory.abstractfactory.AmericanDessertFactory</node>
+    <node x="161.2499999999999" y="226.5">com.ltp.factory.abstractfactory.Trimisu</node>
+    <node x="672.9275956284152" y="215.0">com.ltp.factory.abstractfactory.DessertFactory</node>
+    <node x="0.0" y="226.5">com.ltp.factory.abstractfactory.LatteCoffee</node>
+    <node x="299.92759562841525" y="226.5">com.ltp.factory.abstractfactory.AmericanCoffee</node>
+    <node x="334.94125683060105" y="0.0">com.ltp.factory.abstractfactory.Coffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.factory.abstractfactory.MatchaMousse" target="com.ltp.factory.abstractfactory.Dessert" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="570.4275956284152" y="184.0" />
+      <point x="385.44125683060105" y="184.0" />
+      <point x="385.44125683060105" y="154.0" />
+      <point x="524.6912568306011" y="154.0" />
+      <point x="-28.75" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.DessertFactory" target="com.ltp.factory.abstractfactory.Coffee" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="764.9275956284152" y="144.0" />
+      <point x="703.1912568306011" y="144.0" />
+      <point x="703.1912568306011" y="134.0" />
+      <point x="440.6912568306011" y="134.0" />
+      <point x="35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanDessertFactory" target="com.ltp.factory.abstractfactory.MatchaMousse" relationship="CREATE">
+      <point x="-76.66666666666674" y="-39.5" />
+      <point x="541.8333333333331" y="346.0" />
+      <point x="469.26366120218574" y="346.0" />
+      <point x="469.26366120218574" y="326.0" />
+      <point x="570.4275956284152" y="326.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.ItalyDessertFactory" target="com.ltp.factory.abstractfactory.Dessert" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="286.7499999999999" y="346.0" />
+      <point x="289.42759562841525" y="346.0" />
+      <point x="289.42759562841525" y="164.0" />
+      <point x="825.1912568306011" y="164.0" />
+      <point x="825.1912568306011" y="124.0" />
+      <point x="582.1912568306011" y="124.0" />
+      <point x="28.75" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.Client" target="com.ltp.factory.abstractfactory.Coffee" relationship="DEPENDENCY">
+      <point x="38.75" y="-28.0" />
+      <point x="624.9999999999999" y="478.0" />
+      <point x="911.3579234972677" y="478.0" />
+      <point x="911.3579234972677" y="468.0" />
+      <point x="916.6079234972677" y="468.0" />
+      <point x="916.6079234972677" y="174.0" />
+      <point x="703.1912568306011" y="174.0" />
+      <point x="703.1912568306011" y="134.0" />
+      <point x="440.6912568306011" y="134.0" />
+      <point x="35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanCoffee" target="com.ltp.factory.abstractfactory.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="384.42759562841525" y="194.0" />
+      <point x="215.19125683060105" y="194.0" />
+      <point x="215.19125683060105" y="154.0" />
+      <point x="370.19125683060105" y="154.0" />
+      <point x="-35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanDessertFactory" target="com.ltp.factory.abstractfactory.Dessert" relationship="DEPENDENCY">
+      <point x="76.66666666666663" y="-39.5" />
+      <point x="695.1666666666665" y="346.0" />
+      <point x="767.2499999999999" y="346.0" />
+      <point x="767.2499999999999" y="316.0" />
+      <point x="876.4412568306011" y="316.0" />
+      <point x="876.4412568306011" y="164.0" />
+      <point x="825.1912568306011" y="164.0" />
+      <point x="825.1912568306011" y="124.0" />
+      <point x="582.1912568306011" y="124.0" />
+      <point x="28.75" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.ItalyDessertFactory" target="com.ltp.factory.abstractfactory.Trimisu" relationship="CREATE">
+      <point x="-63.66666666666666" y="-39.5" />
+      <point x="223.08333333333326" y="346.0" />
+      <point x="133.69125683060105" y="346.0" />
+      <point x="133.69125683060105" y="336.0" />
+      <point x="218.7499999999999" y="336.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.ItalyDessertFactory" target="com.ltp.factory.abstractfactory.LatteCoffee" relationship="CREATE">
+      <point x="-63.66666666666666" y="-39.5" />
+      <point x="223.08333333333326" y="346.0" />
+      <point x="133.69125683060105" y="346.0" />
+      <point x="133.69125683060105" y="336.0" />
+      <point x="68.5" y="336.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.ItalyDessertFactory" target="com.ltp.factory.abstractfactory.DessertFactory" relationship="REALIZATION">
+      <point x="63.666666666666686" y="-39.5" />
+      <point x="350.4166666666666" y="336.0" />
+      <point x="616.1775956284152" y="336.0" />
+      <point x="616.1775956284152" y="326.0" />
+      <point x="718.9275956284152" y="326.0" />
+      <point x="-46.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.Client" target="com.ltp.factory.abstractfactory.Dessert" relationship="DEPENDENCY">
+      <point x="38.75" y="-28.0" />
+      <point x="624.9999999999999" y="478.0" />
+      <point x="911.3579234972677" y="478.0" />
+      <point x="911.3579234972677" y="468.0" />
+      <point x="937.0792349726776" y="468.0" />
+      <point x="937.0792349726776" y="164.0" />
+      <point x="825.1912568306011" y="164.0" />
+      <point x="825.1912568306011" y="124.0" />
+      <point x="582.1912568306011" y="124.0" />
+      <point x="28.75" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.Client" target="com.ltp.factory.abstractfactory.ItalyDessertFactory" relationship="CREATE">
+      <point x="-38.75" y="-28.0" />
+      <point x="547.4999999999999" y="478.0" />
+      <point x="286.7499999999999" y="478.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanDessertFactory" target="com.ltp.factory.abstractfactory.Coffee" relationship="DEPENDENCY">
+      <point x="76.66666666666663" y="-39.5" />
+      <point x="695.1666666666665" y="346.0" />
+      <point x="767.2499999999999" y="346.0" />
+      <point x="767.2499999999999" y="316.0" />
+      <point x="662.4275956284152" y="316.0" />
+      <point x="662.4275956284152" y="174.0" />
+      <point x="703.1912568306011" y="174.0" />
+      <point x="703.1912568306011" y="134.0" />
+      <point x="440.6912568306011" y="134.0" />
+      <point x="35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.Trimisu" target="com.ltp.factory.abstractfactory.Dessert" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="218.7499999999999" y="184.0" />
+      <point x="385.44125683060105" y="184.0" />
+      <point x="385.44125683060105" y="154.0" />
+      <point x="524.6912568306011" y="154.0" />
+      <point x="-28.75" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.LatteCoffee" target="com.ltp.factory.abstractfactory.Coffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="68.5" y="194.0" />
+      <point x="215.19125683060105" y="194.0" />
+      <point x="215.19125683060105" y="154.0" />
+      <point x="370.19125683060105" y="154.0" />
+      <point x="-35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanDessertFactory" target="com.ltp.factory.abstractfactory.DessertFactory" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="618.4999999999999" y="336.0" />
+      <point x="616.1775956284152" y="336.0" />
+      <point x="616.1775956284152" y="326.0" />
+      <point x="718.9275956284152" y="326.0" />
+      <point x="-46.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.AmericanDessertFactory" target="com.ltp.factory.abstractfactory.AmericanCoffee" relationship="CREATE">
+      <point x="-76.66666666666674" y="-39.5" />
+      <point x="541.8333333333331" y="346.0" />
+      <point x="469.26366120218574" y="346.0" />
+      <point x="469.26366120218574" y="326.0" />
+      <point x="384.42759562841525" y="326.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.Client" target="com.ltp.factory.abstractfactory.DessertFactory" relationship="DEPENDENCY">
+      <point x="38.75" y="-28.0" />
+      <point x="624.9999999999999" y="478.0" />
+      <point x="911.3579234972677" y="478.0" />
+      <point x="911.3579234972677" y="468.0" />
+      <point x="906.1079234972677" y="468.0" />
+      <point x="906.1079234972677" y="346.0" />
+      <point x="810.9275956284152" y="346.0" />
+      <point x="46.0" y="39.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.ItalyDessertFactory" target="com.ltp.factory.abstractfactory.Coffee" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="286.7499999999999" y="174.0" />
+      <point x="703.1912568306011" y="174.0" />
+      <point x="703.1912568306011" y="134.0" />
+      <point x="440.6912568306011" y="134.0" />
+      <point x="35.25" y="51.5" />
+    </edge>
+    <edge source="com.ltp.factory.abstractfactory.DessertFactory" target="com.ltp.factory.abstractfactory.Dessert" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="764.9275956284152" y="154.0" />
+      <point x="825.1912568306011" y="154.0" />
+      <point x="825.1912568306011" y="124.0" />
+      <point x="582.1912568306011" y="124.0" />
+      <point x="28.75" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="469.0" y="277.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

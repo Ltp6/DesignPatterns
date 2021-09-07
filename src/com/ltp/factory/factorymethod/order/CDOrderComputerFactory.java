@@ -1,17 +1,17 @@
 package com.ltp.factory.factorymethod.order;
 
-import com.ltp.factory.factorymethod.computer.BJAcerComputer;
-import com.ltp.factory.factorymethod.computer.BJHPComputer;
+import com.ltp.factory.factorymethod.computer.CDAcerComputer;
+import com.ltp.factory.factorymethod.computer.CDHPComputer;
 import com.ltp.factory.factorymethod.computer.Computer;
 
-public class BJOrderComputer extends OrderComputer {
+public class CDOrderComputerFactory extends OrderComputerFactory {
     @Override
     public Computer createComputer(String type) {
         Computer computer = null;
         if ("Acer".equals(type)) {
-            computer = new BJAcerComputer();
+            computer = new CDAcerComputer();
         } else if ("HP".equals(type)) {
-            computer = new BJHPComputer();
+            computer = new CDHPComputer();
         } else {
             System.out.println("输入有误");
         }
