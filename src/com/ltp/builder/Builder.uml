@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.builder.Client</OriginalElement>
+  <nodes>
+    <node x="519.5" y="381.0">com.ltp.builder.HighBuilding</node>
+    <node x="10.5" y="392.0">com.ltp.builder.HouseDirector</node>
+    <node x="134.10546875" y="178.0">com.ltp.builder.AbstractHouseBuilder</node>
+    <node x="333.5" y="381.0">com.ltp.builder.CommonHouse</node>
+    <node x="146.43619791666663" y="0.0">com.ltp.builder.House</node>
+    <node x="104.72005208333331" y="535.0">com.ltp.builder.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.builder.CommonHouse" target="com.ltp.builder.AbstractHouseBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="416.5" y="359.0" />
+      <point x="478.4700520833333" y="359.0" />
+      <point x="478.4700520833333" y="349.0" />
+      <point x="310.7721354166667" y="349.0" />
+      <point x="70.66666666666669" y="74.5" />
+    </edge>
+    <edge source="com.ltp.builder.Client" target="com.ltp.builder.HighBuilding" relationship="CREATE">
+      <point x="38.75" y="-28.0" />
+      <point x="220.97005208333331" y="514.0" />
+      <point x="389.28385416666674" y="514.0" />
+      <point x="389.28385416666674" y="504.0" />
+      <point x="592.5" y="504.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.ltp.builder.Client" target="com.ltp.builder.HouseDirector" relationship="CREATE">
+      <point x="38.75" y="-28.0" />
+      <point x="220.97005208333331" y="514.0" />
+      <point x="389.28385416666674" y="514.0" />
+      <point x="389.28385416666674" y="504.0" />
+      <point x="162.0" y="504.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.ltp.builder.HighBuilding" target="com.ltp.builder.AbstractHouseBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="592.5" y="359.0" />
+      <point x="478.4700520833333" y="359.0" />
+      <point x="478.4700520833333" y="349.0" />
+      <point x="310.7721354166667" y="349.0" />
+      <point x="70.66666666666669" y="74.5" />
+    </edge>
+    <edge source="com.ltp.builder.AbstractHouseBuilder" target="com.ltp.builder.House" relationship="CREATE">
+      <point x="-53.0" y="-74.5" />
+      <point x="187.10546875" y="157.0" />
+      <point x="216.43619791666663" y="157.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.ltp.builder.HouseDirector" target="com.ltp.builder.AbstractHouseBuilder" relationship="DEPENDENCY">
+      <point x="-75.75" y="-40.0" />
+      <point x="86.25" y="359.0" />
+      <point x="130.97005208333331" y="359.0" />
+      <point x="130.97005208333331" y="349.0" />
+      <point x="169.43880208333331" y="349.0" />
+      <point x="-70.66666666666669" y="74.5" />
+    </edge>
+    <edge source="com.ltp.builder.Client" target="com.ltp.builder.CommonHouse" relationship="CREATE">
+      <point x="38.75" y="-28.0" />
+      <point x="220.97005208333331" y="514.0" />
+      <point x="389.28385416666674" y="514.0" />
+      <point x="389.28385416666674" y="504.0" />
+      <point x="416.5" y="504.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.ltp.builder.Client" target="com.ltp.builder.House" relationship="DEPENDENCY">
+      <point x="-38.75" y="-28.0" />
+      <point x="143.47005208333331" y="514.0" />
+      <point x="0.0" y="514.0" />
+      <point x="0.0" y="157.0" />
+      <point x="61.81119791666663" y="157.0" />
+      <point x="61.81119791666663" y="147.0" />
+      <point x="169.76953124999997" y="147.0" />
+      <point x="-46.66666666666666" y="63.0" />
+    </edge>
+    <edge source="com.ltp.builder.HouseDirector" target="com.ltp.builder.House" relationship="DEPENDENCY">
+      <point x="-75.75" y="-40.0" />
+      <point x="86.25" y="359.0" />
+      <point x="130.97005208333331" y="359.0" />
+      <point x="130.97005208333331" y="349.0" />
+      <point x="123.60546875000001" y="349.0" />
+      <point x="123.60546875000001" y="157.0" />
+      <point x="61.81119791666663" y="157.0" />
+      <point x="61.81119791666663" y="147.0" />
+      <point x="169.76953124999997" y="147.0" />
+      <point x="-46.66666666666666" y="63.0" />
+    </edge>
+    <edge source="com.ltp.builder.HouseDirector" target="com.ltp.builder.AbstractHouseBuilder" relationship="TO_ONE">
+      <point x="75.75" y="-40.0" />
+      <point x="237.75" y="359.0" />
+      <point x="240.10546875" y="359.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="com.ltp.builder.AbstractHouseBuilder" target="com.ltp.builder.House" relationship="TO_ONE">
+      <point x="53.0" y="-74.5" />
+      <point x="293.10546875" y="157.0" />
+      <point x="263.1028645833333" y="157.0" />
+      <point x="46.666666666666686" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="333.0" y="295.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

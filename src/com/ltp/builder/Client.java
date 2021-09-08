@@ -21,6 +21,10 @@ public class Client {
         //重置建造者
         director.setAbstractHouseBuilder(highBuilding);
         House highHouse = director.constructHouse();
-
+        User param = User.builder()
+                .username("aaa")
+                .password("bbb")
+                .build();
+        System.out.println(param);
     }
 }
