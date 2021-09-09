@@ -9,7 +9,7 @@ public class Client {
 
     public static void main(String[] args) {
         //装饰者模式下订单
-        Drink order = new LongBack();
+        AbstractDrink order = new LongBack();
         System.out.println("费用：" + order.cost() + "\t描述：" + order.getDesc());
 
         //加入牛奶

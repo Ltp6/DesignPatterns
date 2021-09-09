@@ -5,22 +5,22 @@ package com.ltp.decoration;
  * @Author: Ltp
  * @Date: 2021/7/21 23:36
  */
-public class Decoration extends Drink {
+public class Decoration extends AbstractDrink {
 
-    private final Drink drink;
+    private final AbstractDrink abstractDrink;
 
-    public Decoration(Drink drink) {
-        this.drink = drink;
+    public Decoration(AbstractDrink abstractDrink) {
+        this.abstractDrink = abstractDrink;
     }
 
     @Override
     public Double cost() {
         //getPrice 自己的价格
-        return super.getPrice() + drink.cost();
+        return super.getPrice() + abstractDrink.cost();
     }
 
     @Override
     public String getDesc() {
-        return super.getDesc() + "\t" + super.getPrice() + "\t" + drink.getDesc();
+        return super.getDesc() + "\t" + super.getPrice() + "\t" + abstractDrink.getDesc();
     }
 }

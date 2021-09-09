@@ -5,7 +5,7 @@ package com.ltp.decoration;
  * @Author: Ltp
  * @Date: 2021/7/21 23:24
  */
-public abstract class Drink {
+public abstract class AbstractDrink {
 
     /**
      * 描述
