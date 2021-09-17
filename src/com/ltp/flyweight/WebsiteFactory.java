@@ -13,14 +13,14 @@ public class WebsiteFactory {
     /**
      * 缓存池
      */
-    private Map<String, AbstractWebsite> pool = new HashMap<>(16);
+    private final Map<String, AbstractWebsite> pool = new HashMap<>(16);
 
     public AbstractWebsite getWebsite(String type) {
-        if (!pool.containsKey(type)) {
-            pool.put(type, new ConCreateWebsite(type));
-        }
+        pool.computeIfAbsent(type,k-> new ConCreateWebsite(type));
         return pool.get(type);
     }
+
+
 
     public int getCount() {
         return pool.size();
