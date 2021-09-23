@@ -7,11 +7,11 @@ package com.ltp.responsibility;
  */
 public abstract class AbstractApprove {
 
-    private AbstractApprove abstractApprove;
+    private AbstractApprove approve;
 
-    private String name;
+    private final String name;
 
-    public AbstractApprove(String name) {
+    protected AbstractApprove(String name) {
         this.name = name;
     }
 
@@ -19,12 +19,12 @@ public abstract class AbstractApprove {
         return name;
     }
 
-    public void setAbstractApprove(AbstractApprove abstractApprove) {
-        this.abstractApprove = abstractApprove;
+    public void setApprove(AbstractApprove approve) {
+        this.approve = approve;
     }
 
-    public AbstractApprove getAbstractApprove() {
-        return abstractApprove;
+    public AbstractApprove getApprove() {
+        return this.approve;
     }
 
     /**

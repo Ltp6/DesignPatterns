@@ -16,7 +16,7 @@ public class DepartmentApprove extends AbstractApprove {
         if (request.getPrice() <= 5000) {
             System.out.println("请求编号 id= " + request.getId() + "被" + getName() + "处理");
         } else {
-            getAbstractApprove().processRequest(request);
+            getApprove().processRequest(request);
         }
     }
 }

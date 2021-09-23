@@ -15,9 +15,9 @@ public class ResponsibilityClient {
         AbstractApprove schoolMaster = new SchoolMasterApprove("校长");
 
         //处理人构成一个环形结构
-        department.setAbstractApprove(college);
-        college.setAbstractApprove(schoolMaster);
-        schoolMaster.setAbstractApprove(department);
+        department.setApprove(college);
+        college.setApprove(schoolMaster);
+        schoolMaster.setApprove(department);
 
         department.processRequest(purchaseRequest);
     }
