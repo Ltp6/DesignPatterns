@@ -11,7 +11,7 @@ public abstract class AbstractColleague {
 
     private final String name;
 
-    public AbstractColleague(AbstractMediator mediator, String name) {
+    protected AbstractColleague(AbstractMediator mediator, String name) {
         this.mediator = mediator;
         this.name = name;
     }
