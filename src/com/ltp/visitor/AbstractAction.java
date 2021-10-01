@@ -8,14 +8,14 @@ package com.ltp.visitor;
 public abstract class AbstractAction {
 
     /**
-     * 获取女性打分
-     * @param abstractPerson person
+     * 获取男性打分
+     * @param man person
      */
-    protected abstract void getManAction(AbstractPerson abstractPerson);
+    protected abstract void getManAction(Man man);
 
     /**
-     * 获取男性打分
-     * @param abstractPerson person
+     * 获取女性打分
+     * @param woman person
      */
-    protected abstract void getWoManAction(AbstractPerson abstractPerson);
+    protected abstract void getWoManAction(Woman woman);
 }

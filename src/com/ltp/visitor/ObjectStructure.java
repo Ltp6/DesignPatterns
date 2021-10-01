@@ -1,7 +1,5 @@
 package com.ltp.visitor;
 
-import com.ltp.prototype.deep.Person;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +10,7 @@ import java.util.List;
  */
 public class ObjectStructure {
 
-    private List<AbstractPerson> list = new ArrayList<>();
+    private final List<AbstractPerson> list = new ArrayList<>();
 
     public void add(AbstractPerson p){
         list.add(p);

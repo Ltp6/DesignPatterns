@@ -7,12 +7,12 @@ package com.ltp.visitor;
  */
 public class Fail extends AbstractAction{
     @Override
-    protected void getManAction(AbstractPerson abstractPerson) {
+    protected void getManAction(Man man) {
         System.out.println("男性歌手很失败！");
     }
 
     @Override
-    protected void getWoManAction(AbstractPerson abstractPerson) {
+    protected void getWoManAction(Woman woman) {
         System.out.println("女性歌手很失败！");
     }
 }
