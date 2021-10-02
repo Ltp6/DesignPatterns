@@ -50,8 +50,7 @@ public class Calculator {
     }
 
     public int run(Map<String, Integer> var) {
-        //最后将表达式a+b和 var = {a=10,b=20}
-        //然后传递给expression的interpreter进行解释执行
+        //最后将表达式a+b和 var = {a=10,b=20},然后传递给expression的interpreter进行解释执行
         return this.expression.interpreter(var);
     }
 }
