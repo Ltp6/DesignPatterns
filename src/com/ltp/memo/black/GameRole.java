@@ -87,7 +87,10 @@ public class GameRole {
         this.def = def;
     }
 
-    private class RoleStateMemento implements Memoto{
+    /**
+     * 角色状态备忘录
+     */
+    private static class RoleStateMemento implements Memoto{
         /**
          * 生命力
          */

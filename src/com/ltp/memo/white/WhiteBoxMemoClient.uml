@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.memo.white.WhiteBoxMemoClient</OriginalElement>
+  <nodes>
+    <node x="305.0" y="172.0">com.ltp.memo.white.GameRole</node>
+    <node x="61.83333333333337" y="0.0">com.ltp.memo.white.RoleStateMemento</node>
+    <node x="0.0" y="249.5">com.ltp.memo.white.RoleStateCaretaker</node>
+    <node x="182.29166666666669" y="455.0">com.ltp.memo.white.WhiteBoxMemoClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.memo.white.WhiteBoxMemoClient" target="com.ltp.memo.white.RoleStateCaretaker" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="292.2916666666667" y="430.0" />
+      <point x="142.5" y="430.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.ltp.memo.white.WhiteBoxMemoClient" target="com.ltp.memo.white.GameRole" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="292.2916666666667" y="430.0" />
+      <point x="448.5" y="430.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.ltp.memo.white.RoleStateCaretaker" target="com.ltp.memo.white.RoleStateMemento" relationship="TO_ONE">
+      <point x="71.25" y="-39.0" />
+      <point x="213.75" y="147.0" />
+      <point x="182.83333333333337" y="147.0" />
+      <point x="1.4210854715202004E-14" y="61.0" />
+    </edge>
+    <edge source="com.ltp.memo.white.GameRole" target="com.ltp.memo.white.RoleStateMemento" relationship="CREATE">
+      <point x="0.0" y="-116.5" />
+      <point x="448.5" y="147.0" />
+      <point x="263.50000000000006" y="147.0" />
+      <point x="80.66666666666669" y="61.0" />
+    </edge>
+    <edge source="com.ltp.memo.white.RoleStateCaretaker" target="com.ltp.memo.white.RoleStateMemento" relationship="DEPENDENCY">
+      <point x="-71.25" y="-39.0" />
+      <point x="71.25" y="147.0" />
+      <point x="102.16666666666669" y="147.0" />
+      <point x="-80.66666666666667" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="296.0" y="266.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

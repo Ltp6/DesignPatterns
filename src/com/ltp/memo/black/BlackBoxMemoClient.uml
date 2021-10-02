@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ltp.memo.black.BlackBoxMemoClient</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">com.ltp.memo.black.RoleStateCaretaker</node>
+    <node x="159.25" y="258.0">com.ltp.memo.black.GameRole</node>
+    <node x="94.08333333333331" y="0.0">com.ltp.memo.black.Memoto</node>
+    <node x="225.0" y="82.0">com.ltp.memo.black.GameRole.RoleStateMemento</node>
+    <node x="83.35507246376811" y="543.0">com.ltp.memo.black.BlackBoxMemoClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ltp.memo.black.RoleStateCaretaker" target="com.ltp.memo.black.Memoto" relationship="DEPENDENCY">
+      <point x="51.0" y="-39.0" />
+      <point x="153.0" y="61.0" />
+      <point x="136.35507246376812" y="61.0" />
+      <point x="136.35507246376812" y="51.0" />
+      <point x="152.08333333333331" y="51.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.ltp.memo.black.BlackBoxMemoClient" target="com.ltp.memo.black.GameRole" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="192.35507246376812" y="517.0" />
+      <point x="280.25" y="517.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.ltp.memo.black.RoleStateCaretaker" target="com.ltp.memo.black.Memoto" relationship="TO_ONE">
+      <point x="-51.0" y="-39.0" />
+      <point x="51.0" y="61.0" />
+      <point x="113.41666666666666" y="61.0" />
+      <point x="-38.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.ltp.memo.black.GameRole.RoleStateMemento" target="com.ltp.memo.black.Memoto" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="346.0" y="51.0" />
+      <point x="190.74999999999997" y="51.0" />
+      <point x="38.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.ltp.memo.black.GameRole" target="com.ltp.memo.black.Memoto" relationship="DEPENDENCY">
+      <point x="-60.5" y="-116.5" />
+      <point x="219.75" y="231.0" />
+      <point x="214.49999999999997" y="231.0" />
+      <point x="214.49999999999997" y="61.0" />
+      <point x="136.35507246376812" y="61.0" />
+      <point x="136.35507246376812" y="51.0" />
+      <point x="152.08333333333331" y="51.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.ltp.memo.black.BlackBoxMemoClient" target="com.ltp.memo.black.RoleStateCaretaker" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="192.35507246376812" y="517.0" />
+      <point x="101.99999999999999" y="517.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.ltp.memo.black.GameRole" target="com.ltp.memo.black.GameRole.RoleStateMemento" relationship="CREATE">
+      <point x="60.5" y="-116.5" />
+      <point x="340.75" y="231.0" />
+      <point x="346.0" y="231.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="233.5" y="310.5" />
+  <SelectedNodes>
+    <node>com.ltp.memo.black.Memoto</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
